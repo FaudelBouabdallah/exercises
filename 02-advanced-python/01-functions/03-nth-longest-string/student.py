@@ -1,3 +1,4 @@
-# Write your code here
+list = ["1234", "12", "123456", "1", "1234"]
 def nth_longest_string(n, strings):
-    return sorted(strings, key = len)[-n]
+    sorted_strings = sorted(strings, key=len)
+    return sorted_strings[-n]

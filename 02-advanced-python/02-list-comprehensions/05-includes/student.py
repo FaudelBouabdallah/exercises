@@ -1,9 +1,2 @@
-# Write your code here
-'''
 def includes(xs, ys):
-    for y in ys:
-        if y not in xs:
-            return False
-
-    return True
-''' 
+    return all(y in xs for y in ys)

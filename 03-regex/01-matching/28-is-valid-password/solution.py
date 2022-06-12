@@ -7,7 +7,7 @@ def is_valid_password(string):
         r'[0-9]',
         r'[a-z]',
         r'[A-Z]',
-        r'[-+/.*@]',
+        r'[-+/.*@]'
     ]
 
     negative_regexes = [
